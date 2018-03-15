@@ -26,7 +26,6 @@ color: #000000;
 }
 
 .visually-hidden {
-	overflow: hidden;
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -34,5 +33,6 @@ color: #000000;
 	border: 0;
 	padding: 0;
 	clip: rect(0, 0, 0, 0);
+	overflow: hidden;
 }
 
