@@ -1,28 +1,48 @@
-header {
-	background: lightgray;
+
+
+body {
+	margin: 0;
+	padding: ;
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: ;
+	line-height: ;
+	color: #000000;
 }
 
-.menu-navigator {
+header {
+	background-color: lightgrey;
+}
+
+.main-navigator {
+	font-size:  ;
 	text-transform: uppercase;
 	color: #000000;
+}
+
+h1 {
+	font-size:  ;
+}
+
+main {
 
 }
+
+footer {
+	padding: ;
+	font-family: ;
+	font-size: ;
+	line-height: ;
+}
+
 
 
 :focus {
 
 }
 
-body {
-font-family: Roboto;
-color: #000000;
-}
-
 
 .button {
-	:focus;
-	color: #000000;
-
+	
 }
 
 .visually-hidden {
