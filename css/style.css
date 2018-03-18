@@ -1,31 +1,63 @@
 
 
-body {
+html, body {
 	margin: 0;
-	padding: ;
-	font-family: "Roboto", "Arial", sans-serif;
-	font-size: ;
-	line-height: ;
+	padding: 0;
 	color: #000000;
 }
 
+body {
+	padding: 10;
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: left;
+}
+
 header {
-	background-color: lightgrey;
+	width: 100%;
+    background-color: lightgrey;
+}
+
+.header-index {
+	height: 543px;
+}
+
+.header-inner {
+	height: 354px;
 }
 
 .main-navigator {
-	font-size:  ;
 	text-transform: uppercase;
 	color: #000000;
 }
 
 h1 {
-	font-size:  ;
+	font-size: 55px;
+	text-align: left;
 }
 
-main {
+h2 {
 
 }
+
+
+.rectangle {
+	width: 237px;
+    height: 49px;
+    font-size: 16;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 60px;
+    margin-top: 415px;
+    margin-left: 140px;
+    margin-right: 1060px;
+    margin-bottom: 2010px;
+    background-color: #fb565a; 
+
+}
+
 
 footer {
 	padding: ;
