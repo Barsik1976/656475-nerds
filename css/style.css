@@ -73,6 +73,7 @@ h4 {
 	font-size: 16px;
 	color: #666666;
 	text-align: center;
+	background-color: #eeeeee;
 }
 
 .price-sort {
@@ -80,7 +81,7 @@ h4 {
 	font-weight: normal;
 	color: #ffffff;
 	text-transform: uppercase;
-	text-align: center;
+	background-color: #fb565a;
 }
 
 h6 {
@@ -95,6 +96,24 @@ h6 {
 
 li {
 	list-style: none;
+}
+
+.page1 {
+	background-color: none;
+	border-color: 1px #eeeeee;
+}
+
+.page2 {
+	background-color: #eeeeee;
+}
+
+.page3 {
+	background-color: #eeeeee;
+}
+
+.next {
+	text-transform: uppercase;
+	background-color: #eeeeee;
 }
 
 .slider-item {
@@ -122,10 +141,22 @@ li {
 }
 
 .rectangle {
-	font-size: 16;
+	font-size: 16px;
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
+    background-color: #fb565a;
+}
+
+.address {
+	text-align: left;
+    background-color: #ffffff;
+}
+
+.slogan {
+	font-size: 36px;
+	text-align: left;
+	font-weight: bold;
 }
 
 footer {
