@@ -20,13 +20,11 @@ a {
 }
 
 .header-index {
-    width: auto;
     background-color: lightgrey;
     background-position: top center;
 }
 
 .header-inner {
-    width: auto;
     background-color: lightgrey;
     background-position: top center;
 }
@@ -59,24 +57,54 @@ h2 {
 
 }
 
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+li {
+	list-style: none;
+}
+
 .slider-item {
 	list-style: none;
 	text-align: left;
 }
 
+.small-atelier {
+	font-size: 45px;
+}
+
+.up-table {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.td-1 {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.sup {
+	font-size: 35px;
+	vertical-align: super;
+}
+
 .rectangle {
-	width: 237px;
-    height: 49px;
-    font-size: 16;
+	font-size: 16;
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
-    padding: 20px 60px;
-    margin-top: 415px;
-    margin-left: 140px;
-    margin-right: 1060px;
-    margin-bottom: 2010px;
-    background-color: #fb565a; 
 }
 
 footer {
@@ -86,14 +114,39 @@ footer {
 	line-height: ;
 }
 
-button {
-	color: #000000;
-	font: inherit;
-  	text-align: center;
+.button-index1 {
+	color: #ffffff;
+	text-align: center;
     vertical-align: middle;
   	text-transform: uppercase;
   	background-color: #fb565a;
   	border: none;
+}
+
+.button-index2 {
+	color: #ffffff;
+	text-align: center;
+    vertical-align: middle;
+  	text-transform: uppercase;
+  	background-color: #00ca74;
+  	border: none;
+  }
+
+.button-index3 {
+	color: #ffffff;
+	text-align: center;
+    vertical-align: middle;
+  	text-transform: uppercase;
+  	background-color: #efc84a;
+  	border: none;
+  }
+
+ .button-inner {
+	color: #000000;
+	text-align: center;
+    vertical-align: middle;
+  	text-transform: uppercase;
+  	background-color: #eeeeee;
 }
 
 .visually-hidden {
