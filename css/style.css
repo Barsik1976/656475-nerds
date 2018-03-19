@@ -159,6 +159,17 @@ li {
 	font-weight: bold;
 }
 
+.opacity {
+	fill-opacity: 0.5;
+}
+
+.#18 {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+}
+
 footer {
 	padding: ;
 	font-family: ;
