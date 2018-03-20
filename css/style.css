@@ -44,11 +44,11 @@ a {
   color: #000000;
 }
 
-.site-navigation a:hover, a:focus {
+.site-navigation a:hover {
 	color: #fb565a;
 }
 
-.site-navigation a:active, a:focus {
+.site-navigation a:active {
 	color: #a6a6a6
 }
 
@@ -156,42 +156,42 @@ li {
     background-color: #fb565a;
 }
 
-.rectangle a:hover, a:focus {
+.rectangle a:hover {
 	color: #ffffff;
 	background-color: #e74246;
 }
 
-.rectangle a:active, a:focus {
+.rectangle a:active {
 	color: #ffffff;
 	opacity: 0.75;
 	background-color: #d7373b;
 }
 
-.button-index a:hover, a:focus {
+.button-index a:hover {
 	color: #ffffff;
 	background-color: #e74246;
 }
 
-.button-index1 a:active, a:focus {
+.button-index1 a:active {
 	color: #ffffff;
 	opacity: 0.75;
 	background-color: #d7373b;
 }
 
-.button-index2 a:hover, a:focus {
-	
+.button-index2 a:hover {
+
 
 }
 
-.button-index2 a:active, a:focus {
+.button-index2 a:active {
 
 }
 
-.button-index3 a:hover, a:focus {
+.button-index3 a:hover {
 
 }
 
-.button-index3 a:active, a:focus {
+.button-index3 a:active {
 	
 }
 
