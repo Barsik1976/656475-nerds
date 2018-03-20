@@ -156,43 +156,42 @@ li {
     background-color: #fb565a;
 }
 
-.rectangle a:hover {
+.rectangle:hover  {
 	color: #ffffff;
 	background-color: #e74246;
 }
 
-.rectangle a:focus {
+.rectangle:focus  {
 	color: #ffffff;
 	opacity: 0.75;
 	background-color: #d7373b;
 }
 
-.button-index-red a:hover {
+.button-index-red:hover {
 	background-color: #fb565a;
 }
 
-.button-index-red a:focus {
+.button-index-red:focus {
 	color: #ffffff;
 	opacity: 0.75; 
 	background-color: #d7373b;
 }
 
-.button-index-green a:hover {
+.button-index-green:hover {
 	background-color: #00bc6c;
 }
 
-.button-index-green a:focus {
+.button-index-green:focus {
 	color: #ffffff;
 	opacity: 0.75; 
 	background-color: #00aa62;
-	
 }
 
-.button-index-yellow a:hover {
+.button-index-yellow:hover {
 	background-color: #efc84a;
 }
 
-.button-index-yellow a:focus {
+.button-index-yellow:focus {
 	color: #ffffff;
 	opacity: 0.75; 
 	background-color: #e5a722;
@@ -210,7 +209,15 @@ li {
 }
 
 .opacity1 {
-	opacity: 0.5;
+	color: #000000;
+}
+
+.opacity1:hover {
+	opacity: 0.4;
+}
+
+.opacity1:focus {
+	opacity: 0.75;
 }
 
 .subtitle {
