@@ -48,12 +48,13 @@ a {
 	color: #fb565a;
 }
 
-.site-navigation a:active {
+.site-navigation a:active, a:focus {
 	color: #a6a6a6
 }
 
 a:focus {
 	outline: none;
+	color: #a6a6a6;
 }
 
 h1 {
