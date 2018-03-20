@@ -48,13 +48,12 @@ a {
 	color: #fb565a;
 }
 
-.site-navigation a:active, a:focus {
+.site-navigation a:focus {
 	color: #a6a6a6
 }
 
 a:focus {
 	outline: none;
-	color: #a6a6a6;
 }
 
 h1 {
@@ -162,38 +161,41 @@ li {
 	background-color: #e74246;
 }
 
-.rectangle a:active {
+.rectangle a:focus {
 	color: #ffffff;
 	opacity: 0.75;
 	background-color: #d7373b;
 }
 
-.button-index a:hover {
-	color: #ffffff;
-	background-color: #e74246;
+.button-index-red a:hover {
+	background-color: #fb565a;
 }
 
-.button-index1 a:active {
+.button-index-red a:focus {
 	color: #ffffff;
-	opacity: 0.75;
+	opacity: 0.75; 
 	background-color: #d7373b;
 }
 
-.button-index2 a:hover {
-
-
+.button-index-green a:hover {
+	background-color: #00bc6c;
 }
 
-.button-index2 a:active {
-
-}
-
-.button-index3 a:hover {
-
-}
-
-.button-index3 a:active {
+.button-index-green a:focus {
+	color: #ffffff;
+	opacity: 0.75; 
+	background-color: #00aa62;
 	
+}
+
+.button-index-yellow a:hover {
+	background-color: #efc84a;
+}
+
+.button-index-yellow a:focus {
+	color: #ffffff;
+	opacity: 0.75; 
+	background-color: #e5a722;
 }
 
 .address {
@@ -207,9 +209,8 @@ li {
 	font-weight: bold;
 }
 
-.opacity {
+.opacity1 {
 	opacity: 0.5;
-	background-color: none;
 }
 
 .subtitle {
