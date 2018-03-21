@@ -29,6 +29,18 @@ a {
     background-position: top center;
 }
 
+.opacity1 {
+	color: #000000;
+}
+
+.opacity1:hover {
+	opacity: 0.7;
+}
+
+.opacity1:focus {
+	opacity: 0.2;
+}
+
 .main-navigator {
 	font-size: 16px;
 	line-height: 20px;
@@ -61,10 +73,6 @@ h1 {
 	text-align: left;
 }
 
-h2 {
-
-}
-
 h3 {
 	font-size: 24px;
 	font-weight: bold;
@@ -74,6 +82,7 @@ h4 {
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
+	color: #000000;
 	text-align: center;
 }
 
@@ -84,12 +93,49 @@ h4 {
 	background-color: #eeeeee;
 }
 
+.sort {
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.sort a:hover {
+	color: #000000;
+	opacity: 0.3;
+}
+
+.sort a:focus {
+	color: #000000;
+}
+
+.arrow {
+	color: #ededed;
+	opacity: 0.4;
+}
+
+.arrow:hover {
+	color: #a6a6a6;
+}
+
+.arrow:focus {
+	color: #231f20;
+}
+
 .price-sort {
 	font-size: 16px;
 	font-weight: normal;
 	color: #ffffff;
 	text-transform: uppercase;
 	background-color: #fb565a;
+}
+
+.price-sort:hover {
+	background-color: #fb565a;
+}
+
+.price-sort:focus {
+	background-color: #d7373b;
 }
 
 h6 {
@@ -163,38 +209,8 @@ li {
 
 .rectangle:focus  {
 	color: #ffffff;
-	opacity: 0.75;
+	opacity: 0.3;
 	background-color: #d7373b;
-}
-
-.button-index-red:hover {
-	background-color: #fb565a;
-}
-
-.button-index-red:focus {
-	color: #ffffff;
-	opacity: 0.75; 
-	background-color: #d7373b;
-}
-
-.button-index-green:hover {
-	background-color: #00bc6c;
-}
-
-.button-index-green:focus {
-	color: #ffffff;
-	opacity: 0.75; 
-	background-color: #00aa62;
-}
-
-.button-index-yellow:hover {
-	background-color: #efc84a;
-}
-
-.button-index-yellow:focus {
-	color: #ffffff;
-	opacity: 0.75; 
-	background-color: #e5a722;
 }
 
 .address {
@@ -208,16 +224,16 @@ li {
 	font-weight: bold;
 }
 
-.opacity1 {
+.opacity2 {
 	color: #000000;
 }
 
-.opacity1:hover {
-	opacity: 0.4;
+.opacity2:hover {
+	opacity: 0.7;
 }
 
-.opacity1:focus {
-	opacity: 0.75;
+.opacity2:focus {
+	opacity: 0.3;
 }
 
 .subtitle {
@@ -225,13 +241,6 @@ li {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: left;
-}
-
-footer {
-	padding: ;
-	font-family: ;
-	font-size: ;
-	line-height: ;
 }
 
 .button-index {
@@ -255,12 +264,76 @@ footer {
 	background-color: #efc84a;
 }
 
+.button-index-red:hover {
+	background-color: #fb565a;
+}
+
+.button-index-red:focus {
+	color: #ffffff;
+	opacity: 0.3; 
+	background-color: #d7373b;
+}
+
+.button-index-green:hover {
+	background-color: #00bc6c;
+}
+
+.button-index-green:focus {
+	color: #ffffff;
+	opacity: 0.3; 
+	background-color: #00aa62;
+}
+
+.button-index-yellow:hover {
+	background-color: #efc84a;
+}
+
+.button-index-yellow:focus {
+	color: #ffffff;
+	opacity: 0.3; 
+	background-color: #e5a722;
+}
+
 .button-inner {
 	color: #000000;
 	text-align: center;
     vertical-align: middle;
   	text-transform: uppercase;
   	background-color: #eeeeee;
+}
+
+.button-inner:hover {
+	background-color: #dfdfdf;
+}
+
+.button-inner:focus {
+	color: #000000;
+	opacity: 0.75; 
+	background-color: #d5d5d5;
+}
+
+.pagination {
+	font-size: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+	background-color: #dfdfdf;
+}
+
+.pagination:hover {
+	background-color: #dfdfdf;
+}
+
+.pagination:focus {
+	background-color: #d5d5d5;
+}
+
+.letter {
+	font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    background-color: #fb565a;
 }
 
 .visually-hidden {
