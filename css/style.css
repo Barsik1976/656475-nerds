@@ -111,8 +111,7 @@ h4 {
 }
 
 .arrow {
-	opacity: 1;
-	color: #ededed;
+	opacity: 0.45;
 }
 
 .arrow:hover {
