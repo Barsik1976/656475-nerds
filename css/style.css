@@ -42,6 +42,7 @@ a {
 }
 
 .main-navigator {
+	display: flex;
 	font-size: 16px;
 	line-height: 20px;
 	text-transform: uppercase;
@@ -111,7 +112,6 @@ h4 {
 
 .arrow {
 	color: #ededed;
-	opacity: 0.4;
 }
 
 .arrow:hover {
@@ -119,7 +119,7 @@ h4 {
 }
 
 .arrow:focus {
-	color: #231f20;
+	opacity: 1;
 }
 
 .price-sort {
@@ -358,4 +358,15 @@ box-sizing: border-box;
 .content-box-component {
 box-sizing: content-box;
 }
+
+/* Оформление сетки флексами */
+
+.management {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+
 
