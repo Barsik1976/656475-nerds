@@ -386,7 +386,7 @@ li {
 .picture1 {
 	width: 300px;
 	height: 146px;
-	order: 1;
+	order: -1;
 }
 
 .logotypes {
