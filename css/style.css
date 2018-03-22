@@ -347,24 +347,14 @@ li {
 	overflow: hidden;
 }
 
-*, *!::before, *!::after {
-box-sizing: inherit;
-}
-
-html {
-box-sizing: border-box;
-}
-
-.content-box-component {
-box-sizing: content-box;
-}
 
 /* Оформление сетки флексами */
 
-.management {
+.menu {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
+	/* justify-content: space-between; */
 	align-items: baseline;
 }
 
