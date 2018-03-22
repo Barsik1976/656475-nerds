@@ -19,25 +19,27 @@ a {
   text-decoration: none;
 }
 
-.header-index {
+.main-header-index {
     background-color: lightgrey;
     background-position: top center;
 }
 
-.header-inner {
+.main-header-inner {
     background-color: lightgrey;
     background-position: top center;
 }
 
-.opacity1 {
+.main-header-logo {
 	color: #000000;
+	width: 160px;
+  	height: 78px;
 }
 
-.opacity1:hover {
+.main-header-logo:hover {
 	opacity: 0.7;
 }
 
-.opacity1:focus {
+.main-header-logo:focus {
 	opacity: 0.2;
 }
 
@@ -52,18 +54,24 @@ a {
   	background-repeat: no-repeat;
 }
 
-.site-navigation a {
+.main-navigation a {
 	text-transform: uppercase;
   	list-style: none;
   	color: #000000;
 }
 
-.site-navigation a:hover {
+.main-navigation a:hover {
 	color: #fb565a;
 }
 
-.site-navigation a:focus {
+.main-navigation a:focus {
 	color: #a6a6a6
+}
+
+.main-navigation {
+	display: flex;
+  	flex-direction: row;
+  	align-items: center;
 }
 
 a:focus {
@@ -357,29 +365,61 @@ li {
 	width: 440px;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: baseline;
+	align-items: center;
 	
-	/*padding-left: 23px;
-	padding-right: 23px;*/
+	/*margin-left: 23px;
+	margin-right: 23px;*/
+}
+
+.main-navigation {
+	width: 100%;
+  	margin: 0;
+ 	padding: 0;
+}
+
+
+/* Возможно понадобится 
+
+.main-navigation-wrapper {
+	width: 100%;
+  	margin-bottom: 82px;
+}
+
+.main-navigation .container {
+	display: flex;
+  	justify-content: space-between;
+}
+
+*/
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+  	padding: 0 0px;
 }
 
 .basket {
 	display: flex;
-	flex-direction: row;
+	width: 140px;
+  	margin: 0px;
+  	padding: 0;
+  	flex-direction: row;
 	justify-content: flex-end;
-	align-items: baseline;
+	align-items: center;
 }
 
 .amenities {
 	display: flex;
 	flex-direction: row;
-
+	justify-content: space-between;
+	margin: 0;
+  	padding: 0;
 }
 
 .web {
 	display: flex;
 	flex-direction: column;
-	width: 1110px;
+	width: 300px;
 	justify-content: space-between;
 }
 

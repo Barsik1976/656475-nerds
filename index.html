@@ -8,36 +8,21 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-  	<header class="header-index">
-  		 		<a href="#" class="opacity1"><img src="img/inner/nerds-logo.svg" alt="Логотип Нерд"></a>
-			<nav class="main-navigator">
-				<div class="menu">
-  					 <ul class="site-navigation">
-  					 	<div>
-  							<li><a href="#atelier">Студия</a></li>
-  						</div>
-  						<div>
-  							<li><a href="#client">Клиенты</a></li>
-  						</div>
-  						<div>
-  							<li><a href="#shop">Магазин</a></li>
-  						</div>
-  						<div>
-  							<li><a href="#contacts">Контакты</a></li>
-  						</div>
-  						</ul>
-  					</div>
-  				</div>
-  				  	<ul class="site-navigation">
-  						<div>
-  							<li>
-  								<a href="#">Корзина</a>
-  								<img src="img/cart-icon.svg" alt="Корзина">
-  							</li>
-  					</div>
-  					</ul>
-  			</nav>
-  		<section >
+  	<header class="main-header-index">
+  		<nav class="main-navigation">
+  		 	<a href="#" class="main-header-logo"><img src="img/inner/nerds-logo.svg" alt="Логотип Нерд"></a>
+			<ul class="menu1">
+  				<li><a href="#atelier">Студия</a></li>
+  				<li><a href="#client">Клиенты</a></li>
+  				<li><a href="#shop">Магазин</a></li>
+  				<li><a href="#contacts">Контакты</a></li>
+  			</ul>
+  			<ul class="basket">
+  				<li><a href="#">Корзина</a></li>
+  				<img src="img/cart-icon.svg" alt="Корзина">
+  			</ul>
+  		</nav>
+  	<section >
   			<div class="slider-item">
   				<h1>Долго, дорого, скурпулезно.</h1>
   				<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
@@ -60,26 +45,28 @@
   	</header>
   	<main>
   		<section>
-			<ul>
-				<li>
+  			<div class="amenities">
+				<div class="web">
 					<h3 class="bold">Вэб-сайты</h3>
-					<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-					<button class="button-index button-index-red">Заказать</button>
-					<img src="img/index/illustration-1.jpg" alt="Сайт">
-				</li>
-				<li>
-					<h3 class="bold">Приложения</h3>
-					<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-					<button class="button-index button-index-green">Заказать</button>
-					<img src="img/index/illustration-2.jpg" alt="Приложение">
-				</li>
-				<li>
+						<p>Мир никогда не будет прежним после того как увидит ваш 	сайт!</p>
+						<button class="button-index button-index-red">Заказать</	button>
+						<div class="picture1">
+							<img src="img/index/illustration-1.jpg" alt="Сайт">
+						</div>
+				</div>
+				<div class="web">
+						<h3 class="bold">Приложения</h3>
+						<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+						<button class="button-index button-index-green">Заказать</	button>
+						<img src="img/index/illustration-2.jpg" alt="Приложение">
+				</div>
+				<div class="web">
 					<h3 class="bold">Презентации</h3>
-					<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-					<button class="button-index button-index-yellow">Заказать</button>
-					<img src="img/index/illustration-3.jpg" alt="Презентации">
-				</li>
-			</ul>
+						<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+						<button class="button-index button-index-yellow">Заказать</	button>
+						<img src="img/index/illustration-3.jpg" alt="Презентации">
+				</div>
+			</div>
 		</section>
 		<section>
 			<p class="small-atelier"><b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b></p>
@@ -91,30 +78,32 @@
 				<li>Слайдшоу и видео для корпоративных презентаций</li>
 			</ul>
 		</section>
-		<section class="">
-			<img src="img/index/nerds-illustration.jpg" alt="Логотип Нерд">
-			<p class="up-table">с 2004 года Любим точность во всем:</p>
-			<table class="">
-				<tr>
-					<td class="td-1">146<span class="sup">%</span></td>
-					<td>Уровень самоотдачи</td>
-				</tr>
-				<tr>
-					<td class="td-1">100<span class="sup">%</span></td>
-					<td>Соблюдение сроков</td>
-				</tr>
-				<tr>
-					<td class="td-1">50<span class="sup">%</span></td>
-					<td>Минимальная предоплата</td>
-				</tr>
-			</table>
 		<section>
-			<ul>
-				<li><a href="#"><img src="img/index/logo-1.png" alt="htmlacademy" class="opacity2"></a></li>
-				<li><a href="#"><img src="img/index/logo-2.png" alt="Barbershop" class="opacity2"></a></li>
-				<li><a href="#"><img src="img/index/logo-3.png" alt="Pink"  class="opacity2"></a></li>
-				<li><a href="#"><img src="img/index/logo-4.png" alt="Mishka"  class="opacity2"></a></li>
-			</ul>
+			<div>
+				<img src="img/index/nerds-illustration.jpg" alt="Логотип Нерд">
+				<p class="up-table">с 2004 года Любим точность во всем:</p>
+				<table class="">
+					<tr>
+						<td class="td-1">146<span class="sup">%</span></td>
+						<td>Уровень самоотдачи</td>
+					</tr>
+					<tr>
+						<td class="td-1">100<span class="sup">%</span></td>
+						<td>Соблюдение сроков</td>
+					</tr>
+					<tr>
+						<td class="td-1">50<span class="sup">%</span></td>
+						<td>Минимальная предоплата</td>
+					</tr>
+				</table>
+			</div>
+		<section>
+			<div class="logotypes">
+				<a href="#"><img src="img/index/logo-1.png" alt="htmlacademy" class="opacity2"></a>
+				<a href="#"><img src="img/index/logo-2.png" alt="Barbershop" class="opacity2"></a>
+				<a href="#"><img src="img/index/logo-3.png" alt="Pink"  class="opacity2"></a>
+				<a href="#"><img src="img/index/logo-4.png" alt="Mishka"  class="opacity2"></a>
+			</div>
 		</section>
 	</main>
 	<footer>
