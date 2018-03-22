@@ -53,8 +53,9 @@ a {
 }
 
 .site-navigation a {
-  list-style: none;
-  color: #000000;
+	text-transform: uppercase;
+  	list-style: none;
+  	color: #000000;
 }
 
 .site-navigation a:hover {
@@ -350,11 +351,25 @@ li {
 
 /* Оформление сетки флексами */
 
-.menu {
+.menu1 {
 	display: flex;
+	margin-left: 500px;
+	padding-left: 23px;
+	padding-right: 23px;
+
+	width: 440px;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: left;
 	/* justify-content: space-between; */
+	align-items: baseline;
+	space-around
+}
+
+.menu2 {
+	display: flex;
+	width: 1440px;
+	flex-direction: row;
+	justify-content: right;
 	align-items: baseline;
 }
 
