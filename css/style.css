@@ -21,7 +21,7 @@ a {
 
 .main-header-index {
     background-color: lightgrey;
-    background-position: top center;
+    background-position: right;
 }
 
 .main-header-inner {
@@ -33,6 +33,7 @@ a {
 	color: #000000;
 	width: 160px;
   	height: 78px;
+  	margin-right: 200px;
 }
 
 .main-header-logo:hover {
@@ -50,8 +51,7 @@ a {
 	text-transform: uppercase;
 	color: #000000;
 	background-color: lightgrey;
-  	background-position: top center;
-  	background-repeat: no-repeat;
+	background-position: top center;
 }
 
 .main-navigation a {
@@ -193,10 +193,37 @@ li {
 
 .slider-item {
 	display: block;
+	margin-bottom: 80px;
+	background-image: url("img/index/nerds-index-slide1.png");
+}
+
+.block2 {
+	
 }
 
 .small-atelier {
 	font-size: 45px;
+	line-height: 52px;
+}
+
+.atelier {
+	display: block;
+	width: 660px;
+	float: left;
+	margin-top: 163px;  
+	margin right: 140px;
+}
+
+.statistics {
+	display: block;
+	float: right;
+	margin-top: 121px;
+}
+
+.tabl-stat {
+	border-collapse: separate;
+	border-spacing: 30px;
+	border: 0px;
 }
 
 .up-table {
@@ -270,6 +297,8 @@ li {
 	text-align: center;
     vertical-align: middle;
   	text-transform: uppercase;
+  	width: 160px;
+  	height: 50px;
   	background-color: #fb565a;
   	border: none;
 }
@@ -374,7 +403,6 @@ li {
 
 .menu1 {
 	display: flex;
-	margin-left: 500px;
 	width: 440px;
 	flex-direction: row;
 	justify-content: space-between;
@@ -448,5 +476,5 @@ li {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 }
