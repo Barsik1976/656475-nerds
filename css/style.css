@@ -485,13 +485,6 @@ li {
 
 /* Оформление сетки флексами Inner */ 
 
-.sort-f {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-
 .sort-kat {
 	display: flex;
 	flex-direction: row;
@@ -532,5 +525,12 @@ li {
 }
 
 .left-column {
-	
+	display: block;
+}
+
+.right-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: ;
 }
