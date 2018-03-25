@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-  	<header class="main-header-index">
+  	<header class="main-header-inner">
   		<nav class="main-navigation">
   		 	<a href="#" class="main-header-logo"><img src="img/inner/nerds-logo.svg" alt="Логотип Нерд"></a>
 			<ul class="menu1">
@@ -22,7 +22,7 @@
   				<img src="img/cart-icon.svg" alt="Корзина">
   			</ul>
   		</nav>
-  			<h1>Магазин готовых шаблон</h1>
+  			<h1 class="shop">Магазин готовых шаблон</h1>
   	</header>
   	<main>
   		<section class="">
@@ -97,80 +97,69 @@
 		</section>
 		<section>
 			<fieldset>
-				<legend class="subtitle">Сортировать</legend>
-				<ul class="sort">
-					<li>
-						<a href="#">По цене</a>
-					</li>
-					<li>
-						<a href="#">По типу</a>
-					</li>
-					<li>
-						<a href="#">По названию</a>
-					</li>
+				<div class="sort-f">
+				<legend class="subtitle">Сортировать:</legend>
+				<ul class="sort-kat">
+					<li><a href="#">По цене</a></li>
+					<li><a href="#">По типу</a></li>
+					<li><a href="#">По названию</a></li>
 				</ul>
-			</fieldset>
 					<a href="#" class="arrow"><img src="img/inner/icon-down-dir.png" alt="Стрелка вниз"></a> 
 					<a href="#" class="arrow"><img src="img/inner/icon-up-dir.svg" alt="Стрелка вниз"></a>
+			</fieldset>
+			</div>
 		</section>
-				<div>
-					<ul>
-						<li>
-							<img src="img/inner/img-sedona.jpg" alt="Sedona">
-								<div class="center">					
-									<h4>Sedona</h4>
-									<p>Информационный сайт<br>
-									для туристов</p>
-									<a href="#" class="price-sort">9 900 руб.</a>
-								</div>
-						</li>									
-						<li>
-							<img src="img/inner/img-pink.jpg" alt="Pink">
-								<div class="center">
-									<h4>Pink app</h4>
-									<p>Продуктовый лендинг<br>
-									приложения для iOS и Android</p>
-									<a href="#" class="price-sort">9 900 руб.</a>
-								</div>
-						</li>					
-						<li>
-							<img src="img/inner/img-barbershop.jpg" alt="Barbershop">
-								<div class="center">
-									<h4>Barbershop</h4>
-									<p>Сайт салоны красоты.<br>
-									Для мужчин, да.</p>
-									<a href="#" class="price-sort">9 900 руб.</a>
-								</div>
-						</li>				
-						<li>
-							<img src="img/inner/img-mishka.jpg" alt="Mishka">
-								<div class="center">
-									<h4>Mishka</h4>
-									<p">Интернет-магазин<br>
-									вязаных игрушек</p>
-									<a href="#" class="price-sort">9 900 руб.</a>
-								</div>
-						</li>				
-						<li>
-							<img src="img/inner/img-aplus.jpg" alt="Aplus">
-								<div class="center">
-									<h4>A plus</h4>
-									<p>Лендинг курсов повышения<br>
-									квалификации</p>
-									<a href="#" class="price-sort">9 900 руб.</a>
-								</div>
-						</li>				
-						<li>
-							<img src="img/inner/img-kvast.jpg" alt="Кваст">
-								<div class="center">
-									<h4>Кваст</h4>
-									<p>Промо-сайт производителя<br>
-									крафтового кваса</p>
-									<a href="#" class="price-sort">9 900 руб.</a>
-								</div>
-						</li>			
-					</ul>
+				<div class="banners-list">
+					<div class="banners-item">
+						<img src="img/inner/img-sedona.jpg" alt="Sedona">
+							<div class="center">
+								<h4>Sedona</h4>
+								<p>Информационный сайт<br>
+								для туристов</p>
+								<a href="#" class="price-sort">9 900 руб.</a>
+							</div>
+						<img src="img/inner/img-pink.jpg" alt="Pink">
+							<div class="center">
+								<h4>Pink app</h4>
+								<p>Продуктовый лендинг<br>
+								приложения для iOS и Android</p>
+								<a href="#" class="price-sort">9 900 руб.</a>
+							</div>
+					</div>
+					<div class="banners-item">	
+						<img src="img/inner/img-barbershop.jpg" alt="Barbershop">
+							<div class="center">
+								<h4>Barbershop</h4>
+								<p>Сайт салоны красоты.<br>
+								Для мужчин, да.</p>
+								<a href="#" class="price-sort">9 900 руб.</a>
+							</div>
+						<img src="img/inner/img-mishka.jpg" alt="Mishka">
+							<div class="center">
+								<h4>Mishka</h4>
+								<p">Интернет-магазин<br>
+								вязаных игрушек</p>
+								<a href="#" class="price-sort">9 900 руб.</a>
+							</div>
+					</div>
+					<div class="banners-item">
+						<img src="img/inner/img-aplus.jpg" alt="Aplus">
+							<div class="center">
+								<h4>A plus</h4>
+								<p>Лендинг курсов повышения<br>
+								квалификации</p>
+								<a href="#" class="price-sort">9 900 руб.</a>
+							</div>
+						<img src="img/inner/img-kvast.jpg" alt="Кваст">
+							<div class="center">
+								<h4>Кваст</h4>
+								<p>Промо-сайт производителя<br>
+								крафтового кваса</p>
+								<a href="#" class="price-sort">9 900 руб.</a>
+							</div>
+					<div class="banners-item">
 				</div>
+			</div>
 					<ul class="pagination">
 						<li class="page1">
 							<a href="#page1.html">1</a>
@@ -197,16 +186,22 @@
 			<p>тел. +7 (812) 275-75-75</p>
 			<a href="#" class="letter">Напишите нам</a>
 		</section>
-			<div>
-				<ul>
-					<li><a href="#"><img src="img/index/vk-icon.svg" alt="вконтакте"></a></li>
-					<li><a href="#"><img src="img/index/fb-icon.svg" alt="фэйсбук"></a></li>
-					<li><a href="#"><img src="img/index/insta-icon.svg" alt="инстаграм"></a></li>
-				</ul>
-			</div>
-			<div>
-				<p class="slogan"><b>Давайте дружить, это выгодно!</b></p>
-				<p>Скидка 10% для друзей из социальных сетей.</p>
+			<div class="social">
+				<div>
+					<a href="#">
+						<span class="visually-hidden">vk</span>
+						<img src="img/index/vk-icon.svg" alt="vk"></a>
+					<a href="#">
+						<span class="visually-hidden">fb</span>
+						<img src="img/index/fb-icon.svg" alt="fb"></a>
+					<a href="#">
+						<span class="visually-hidden">insta</span>
+						<img src="img/index/insta-icon.svg" alt="insta"></a>
+				</div>
+				<div>
+					<p class="slogan"><b>Давайте дружить, это выгодно!</b></p>
+					<p>Скидка 10% для друзей из социальных сетей.</p>
+				</div>
 			</div>
 	</footer>
  </body>

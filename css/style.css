@@ -7,7 +7,6 @@ html, body {
 }
 
 body {
-	padding: 10;
 	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 20px;
@@ -20,13 +19,15 @@ a {
 }
 
 .main-header-index {
+	width: 1440px;
+	min-height: 540px;
     background-color: lightgrey;
-    background-position: right;
 }
 
 .main-header-inner {
+	width: 1440px;
+	min-height: 354px;
     background-color: lightgrey;
-    background-position: top center;
 }
 
 .main-header-logo {
@@ -34,6 +35,8 @@ a {
 	width: 160px;
   	height: 78px;
   	margin-right: 200px;
+  	margin-left: 140px;
+  	margin-top: 47px;
 }
 
 .main-header-logo:hover {
@@ -50,8 +53,9 @@ a {
 	line-height: 20px;
 	text-transform: uppercase;
 	color: #000000;
+	vertical-align: middle;
+	align-items: center;
 	background-color: lightgrey;
-	background-position: top center;
 }
 
 .main-navigation a {
@@ -70,7 +74,7 @@ a {
 
 .main-navigation {
 	display: flex;
-  	flex-direction: row;
+	flex-direction: row;
   	justify-content: space-between;
   	align-items: center;
 }
@@ -83,6 +87,13 @@ h1 {
 	font-size: 55px;
 	line-height: 62px;
 	text-align: left;
+}
+
+.shop {
+	margin-top: 84px;
+	margin-bottom: 117px;
+	text-align: center;
+	font-weight: 550; 
 }
 
 h3 {
@@ -105,19 +116,19 @@ h4 {
 	background-color: #eeeeee;
 }
 
-.sort {
+.sort-kat {
 	font-size: 16px;
 	font-weight: normal;
 	color: #000000;
 	text-transform: uppercase;
 }
 
-.sort a:hover {
+.sort-kat a:hover {
 	color: #000000;
 	opacity: 0.3;
 }
 
-.sort a:focus {
+.sort-kat a:focus {
 	color: #000000;
 }
 
@@ -194,11 +205,8 @@ li {
 .slider-item {
 	display: block;
 	margin-bottom: 80px;
-	background-image: url("img/index/nerds-index-slide1.png");
-}
-
-.block2 {
-	
+	margin-left: 140px;
+	background-image: url("/img/index/nerds-index-slide1.png");
 }
 
 .small-atelier {
@@ -207,33 +215,34 @@ li {
 }
 
 .atelier {
-	display: block;
 	width: 660px;
-	float: left;
-	margin-top: 163px;  
-	margin right: 140px;
+	margin-right: 140px;
 }
 
 .statistics {
-	display: block;
-	float: right;
-	margin-top: 121px;
+	justify-content: flex-start;
+	align-items: flex-start;
+	vertical-align: middle;
 }
 
 .tabl-stat {
 	border-collapse: separate;
-	border-spacing: 30px;
 	border: 0px;
 }
 
 .up-table {
 	text-transform: uppercase;
 	font-weight: bold;
+	margin-top: : 40px;
+	margin-bottom: 50px; 
 }
 
 .td-1 {
 	font-size: 45px;
 	font-weight: bold;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;  
 }
 
 .sup {
@@ -242,13 +251,17 @@ li {
 }
 
 .rectangle {
+	display: block;
 	font-size: 16px;
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
     background-color: #fb565a;
     width: 240px;
-    height: 50px;
+    border-radius: 5px;
+	text-align: center;
+	padding-top: 19px;
+	padding-bottom: 19px;   
 }
 
 .rectangle:hover  {
@@ -262,29 +275,6 @@ li {
 	background-color: #d7373b;
 }
 
-.address {
-	text-align: left;
-    background-color: #ffffff;
-}
-
-.slogan {
-	font-size: 36px;
-	text-align: left;
-	font-weight: bold;
-}
-
-.opacity2 {
-	color: #000000;
-}
-
-.opacity2:hover {
-	opacity: 0.7;
-}
-
-.opacity2:focus {
-	opacity: 0.3;
-}
-
 .subtitle {
 	font-size: 18px;
 	font-weight: bold;
@@ -294,6 +284,7 @@ li {
 
 .button-index {
 	color: #ffffff;
+	border-radius: 5px;
 	text-align: center;
     vertical-align: middle;
   	text-transform: uppercase;
@@ -347,6 +338,7 @@ li {
 
 .button-inner {
 	color: #000000;
+	border-radius: 5px;
 	text-align: center;
     vertical-align: middle;
   	text-transform: uppercase;
@@ -380,11 +372,16 @@ li {
 }
 
 .letter {
+	display: block;
 	font-size: 16px;
     text-transform: uppercase;
     color: #ffffff;
+    border-radius: 5px;
     text-align: center;
+    width: 217px;
     background-color: #fb565a;
+    padding-top: 19px;
+	padding-bottom: 19px; 
 }
 
 .visually-hidden {
@@ -399,7 +396,7 @@ li {
 }
 
 
-/* Оформление сетки флексами */
+/* Оформление сетки флексами Index */
 
 .menu1 {
 	display: flex;
@@ -407,55 +404,34 @@ li {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	
-	/*margin-left: 23px;
-	margin-right: 23px;*/
+	margin-top: 82px;
 }
-
-.main-navigation {
-	width: 100%;
-  	margin: 0;
- 	padding: 0;
-}
-
-
-/* Возможно понадобится 
-
-.main-navigation-wrapper {
-	width: 100%;
-  	margin-bottom: 82px;
-}
-
-.main-navigation .container {
-	display: flex;
-  	justify-content: space-between;
-}
-
-*/
 
 .container {
-	width: 800px;
-	margin: 0 auto;
-  	padding: 0 0px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 140px;
 }
 
 .basket {
 	display: flex;
 	width: 140px;
-  	margin: 0px;
+  	margin-left: 140px;
+  	margin-right: 140px; 
+  	margin-top: 82px;
   	padding: 0;
   	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .amenities {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 0;
-  	padding: 0;
-  	align-items: flex-start;
+	margin-bottom: 121px;
+	margin-left: 140px;
+	margin-right: 200px; 
+	align-items: flex-start;
 }
 
 .web {
@@ -472,9 +448,85 @@ li {
 	order: -1;
 }
 
-.logotypes {
+.logotypes-all {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	opacity: 0.7;
+	margin-left: 170px;
+	margin-top: 125px;
+	margin-bottom: 128px; 
+}
+
+.logotypes:hover {
+	opacity: 1;
+}
+
+.logotypes:focus {
+	opacity: 0.3;
+}
+
+.address {
+	text-align: left;
+    background-color: #ffffff;
+    /*background-image: url("/img/karta.jpg");*/
+}
+
+.social {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: center;
+	margin-top: 65px;
+	margin-left: 140px; 
+}
+
+.slogan {
+	align-items: center;
+	font-size: 36px;
+	line-height: 36px;
+	text-align: left;
+	font-weight: bold;
+	margin-right: 355px; 
+}
+
+/* Оформление сетки флексами Inner */ 
+
+.sort-f {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.sort-kat {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.banners-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-left: 540px;
+	margin-right: 140px;
+}
+
+.banners-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.container {
+	
 }
