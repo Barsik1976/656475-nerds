@@ -93,6 +93,9 @@ h1 {
 	text-align: center;
 	font-weight: 550;
 	background-color: lightgrey;
+	margin: 0px;
+	padding-top: 86px;
+	padding-bottom: 117px; 
 }
 
 h3 {
@@ -412,6 +415,10 @@ li {
 	margin-left: 140px;
 }
 
+.container-inner {
+	display: flex;
+}
+
 .basket {
 	display: flex;
 	width: 140px;
@@ -493,37 +500,33 @@ li {
 
 .sort-kat {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 760px;
-	margin-left: 140px;
 }
 
-.banners {
-
-}
-
-.banners-list {
+.sort-list {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-left: 540px;
-	margin-right: 140px;
+}
+
+.sort-list li {
+  margin-right: 10px;
 }
 
 .banners-item {
 	position: relative;
 	width: 360px;
-	height: 576px;
-  	margin-bottom: 34px;
+	margin-bottom: 34px;
 }
 
 .banner-info {
 	width: 360px;
-	height: 230;
 	text-align: center;
 	background-color: #eeeeee;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
 }
 
 .product-zag {
@@ -541,21 +544,17 @@ li {
 	vertical-align: center;
 }
 
-.container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-top: 62px;
+.products-list li {
+  /* Чтобы оттолкнуть элементы друг от друга */
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .left-column {
-	display: block;
+
 }
 
 .right-column {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
+	width: 760px;
 }
 
