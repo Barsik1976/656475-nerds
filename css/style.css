@@ -109,13 +109,6 @@ h4 {
 	text-align: center;
 }
 
-.center {
-	font-size: 16px;
-	color: #666666;
-	text-align: center;
-	background-color: #eeeeee;
-}
-
 .sort-kat {
 	font-size: 16px;
 	font-weight: normal;
@@ -505,26 +498,31 @@ li {
 	justify-content: space-between;
 }
 
+.banners {
+
+}
+
 .banners-list {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;;
 	flex-wrap: wrap;
 	margin-left: 540px;
 	margin-right: 140px;
 }
 
 .banners-item {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: nowrap;
+	position: relative;
+	width: 360px;
+	height: 576px;
+  	margin-bottom: 34px;
 }
 
-.center {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+.banner-info {
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+	background-color: #eeeeee;
 }
 
 .container {
