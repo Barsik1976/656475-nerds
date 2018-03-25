@@ -26,8 +26,7 @@ a {
 
 .main-header-inner {
 	width: 1440px;
-	min-height: 354px;
-    background-color: lightgrey;
+	background-color: lightgrey;
 }
 
 .main-header-logo {
@@ -90,10 +89,10 @@ h1 {
 }
 
 .shop {
-	margin-top: 84px;
-	margin-bottom: 117px;
+	width: 1440px;
 	text-align: center;
-	font-weight: 550; 
+	font-weight: 550;
+	background-color: lightgrey;
 }
 
 h3 {
@@ -138,10 +137,19 @@ h4 {
 }
 
 .price-sort {
+	display: block;
 	font-size: 16px;
 	font-weight: normal;
 	color: #ffffff;
 	text-transform: uppercase;
+	width: 200px;
+	border-radius: 5px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 80px;
+	margin-right: 80px;
+	padding-top: 19px;
+	padding-bottom: 19px;
 	background-color: #fb565a;
 }
 
@@ -331,10 +339,8 @@ li {
 
 .button-inner {
 	color: #000000;
-	border-radius: 5px;
 	text-align: center;
-    vertical-align: middle;
-  	text-transform: uppercase;
+    text-transform: uppercase;
   	background-color: #eeeeee;
 }
 
@@ -489,6 +495,8 @@ li {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	width: 760px;
+	margin-left: 140px;
 }
 
 .banners {
@@ -512,16 +520,32 @@ li {
 }
 
 .banner-info {
+	width: 360px;
+	height: 230;
+	text-align: center;
+	background-color: #eeeeee;
+}
+
+.product-zag {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+	vertical-align: center;
+}
+
+.product-p {
 	font-size: 16px;
 	color: #666666;
 	text-align: center;
-	background-color: #eeeeee;
+	vertical-align: center;
 }
 
 .container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-top: 62px;
 }
 
 .left-column {
@@ -531,6 +555,7 @@ li {
 .right-column {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	align-items: ;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
+
