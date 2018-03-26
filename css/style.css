@@ -180,19 +180,30 @@ li {
 }
 
 .page1 {
+	width: 50px;
+	padding: 20px;
 	background-color: none;
 	border-color: 1px #eeeeee;
 }
 
 .page2 {
+	width: 50px;
+	padding: 20px;
 	background-color: #eeeeee;
 }
 
 .page3 {
+	width: 50px;
+	padding: 20px;
 	background-color: #eeeeee;
 }
 
 .next {
+	width: 260px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 78px;
+	padding-right: 78px;   
 	text-transform: uppercase;
 	background-color: #eeeeee;
 }
@@ -290,12 +301,12 @@ li {
 	color: #ffffff;
 	border-radius: 5px;
 	text-align: center;
-    vertical-align: middle;
-  	text-transform: uppercase;
-  	width: 160px;
-  	height: 50px;
-  	background-color: #fb565a;
-  	border: none;
+  vertical-align: middle;
+  text-transform: uppercase;
+  width: 160px;
+  height: 50px;
+  background-color: #fb565a;
+  border: none;
 }
 
 .button-index-red {
@@ -343,8 +354,8 @@ li {
 .button-inner {
 	color: #000000;
 	text-align: center;
-    text-transform: uppercase;
-  	background-color: #eeeeee;
+   text-transform: uppercase;
+  background-color: #eeeeee;
 }
 
 .button-inner:hover {
@@ -357,32 +368,16 @@ li {
 	background-color: #d5d5d5;
 }
 
-.pagination {
-	font-size: 16px;
-    text-transform: uppercase;
-    color: #000000;
-    text-align: left;
-	background-color: #dfdfdf;
-}
-
-.pagination:hover {
-	background-color: #dfdfdf;
-}
-
-.pagination:focus {
-	background-color: #d5d5d5;
-}
-
 .letter {
 	display: block;
 	font-size: 16px;
-    text-transform: uppercase;
-    color: #ffffff;
-    border-radius: 5px;
-    text-align: center;
-    width: 217px;
-    background-color: #fb565a;
-    padding-top: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  width: 217px;
+  background-color: #fb565a;
+  padding-top: 19px;
 	padding-bottom: 19px; 
 }
 
@@ -417,16 +412,18 @@ li {
 
 .container-inner {
 	display: flex;
+	margin-top: 64px;
+	align-items: flex-start
 }
 
 .basket {
 	display: flex;
 	width: 140px;
-  	margin-left: 140px;
-  	margin-right: 140px; 
-  	margin-top: 82px;
-  	padding: 0;
-  	flex-direction: row;
+  margin-left: 140px;
+  margin-right: 140px; 
+  margin-top: 82px;
+  padding: 0;
+  flex-direction: row;
 	justify-content: space-between;
 }
 
@@ -474,8 +471,8 @@ li {
 
 .address {
 	text-align: left;
-    background-color: #ffffff;
-    /*background-image: url("/img/karta.jpg");*/
+  background-color: #ffffff;
+  /*background-image: url("/img/karta.jpg");*/
 }
 
 .social {
@@ -500,10 +497,15 @@ li {
 
 .sort-kat {
 	display: flex;
+	align-items: baseline;
+	margin-bottom: 60px; 
 }
 
 .sort-list {
 	display: flex;
+	justify-content: space-around;
+	width: 360px;
+	margin-left: 282px; 
 }
 
 .sort-list li {
@@ -513,17 +515,20 @@ li {
 .banners-item {
 	position: relative;
 	width: 360px;
-	margin-bottom: 34px;
+	margin-right: 140px; 
 }
 
 .banner-info {
 	width: 360px;
 	text-align: center;
 	background-color: #eeeeee;
+	padding-bottom: 42px; 
+	margin-bottom: 34px;
 }
 
 .products-list {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
@@ -535,6 +540,7 @@ li {
 	color: #000000;
 	text-align: center;
 	vertical-align: center;
+	padding-top: 35px;
 }
 
 .product-p {
@@ -556,5 +562,32 @@ li {
 
 .right-column {
 	width: 760px;
+	margin-left: 140px; 
 }
 
+.pagination {
+	display: flex;
+	margin-top: 61px;
+	margin-bottom: 61px;
+	font-size: 16px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+.pagination-item a {
+	background-color: #dfdfdf;
+	border-radius: 5px;
+}
+
+.pagination li {
+	margin-right: 15px;
+}
+
+.pagination: a:hover {
+	background-color: #dfdfdf;
+}
+
+.pagination: a:focus {
+	background-color: #d5d5d5;
+}
