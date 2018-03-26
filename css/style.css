@@ -245,26 +245,26 @@ li {
 	background-image: url("/img/index/nerds-index-slide1.png");
 }
 
-.slider-item2 {
-	display: none;
-}
-
 .slider-item:nth-child(1) {
   background-image: url("/img/index/nerds-index-slide1.png");
   background-repeat: no-repeat;
   background-position: 93% 18px;
+  display: none;
+
 }
 
 .slider-item:nth-child(2) {
   background-image: url("/img/index/nerds-index-slide2.png");
   background-repeat: no-repeat;
   background-position: 100% 0;
+  display: none;
 }
 
 .slider-item:nth-child(3) {
   background-image: url("/img/index/nerds-index-slide3.png");
   background-repeat: no-repeat;
   background-position: 100% 20;
+  display: none;
 }
 
 .small-atelier {
