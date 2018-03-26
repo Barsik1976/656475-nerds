@@ -21,7 +21,7 @@ a {
 .main-header-index {
 	width: 1440px;
 	min-height: 540px;
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .main-header-inner {
@@ -32,10 +32,10 @@ a {
 .main-header-logo {
 	color: #000000;
 	width: 160px;
-  	height: 78px;
-  	margin-right: 200px;
-  	margin-left: 140px;
-  	margin-top: 47px;
+  height: 78px;
+  margin-right: 200px;
+  margin-left: 140px;
+  margin-top: 47px;
 }
 
 .main-header-logo:hover {
@@ -59,8 +59,8 @@ a {
 
 .main-navigation a {
 	text-transform: uppercase;
-  	list-style: none;
-  	color: #000000;
+  list-style: none;
+  color: #000000;
 }
 
 .main-navigation a:hover {
@@ -74,8 +74,8 @@ a {
 .main-navigation {
 	display: flex;
 	flex-direction: row;
-  	justify-content: space-between;
-  	align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 a:focus {
@@ -177,6 +177,7 @@ h6 {
 
 li {
 	list-style: none;
+	padding: 0;
 }
 
 .page1 {
@@ -208,6 +209,27 @@ li {
 	background-color: #eeeeee;
 }
 
+.slider {
+	position: relative;
+}
+
+.slider-controls i {
+	position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  /* Временно для демонстрации */
+  background-color: red;
+ }
+
+.active {
+
+}
+
 .slider-list {
 	display: flex;
 	flex-direction: row;
@@ -222,6 +244,24 @@ li {
 	margin-bottom: 80px;
 	margin-left: 140px;
 	background-image: url("/img/index/nerds-index-slide1.png");
+}
+
+.slider-item:nth-child(1) {
+  background-image: url("/img/index/nerds-index-slide1.png");
+  background-repeat: no-repeat;
+  background-position: 93% 18px;
+}
+
+.slider-item:nth-child(2) {
+  background-image: url("/img/index/nerds-index-slide2.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+.slider-item:nth-child(3) {
+  background-image: url("/img/index/nerds-index-slide3.png");
+  background-repeat: no-repeat;
+  background-position: 100% 20;
 }
 
 .small-atelier {
@@ -268,12 +308,12 @@ li {
 .rectangle {
 	display: block;
 	font-size: 16px;
-    text-transform: uppercase;
-    color: #ffffff;
-    text-align: center;
-    background-color: #fb565a;
-    width: 240px;
-    border-radius: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  background-color: #fb565a;
+  width: 240px;
+  border-radius: 3px;
 	text-align: center;
 	padding-top: 19px;
 	padding-bottom: 19px;   
@@ -288,6 +328,11 @@ li {
 	color: #ffffff;
 	opacity: 0.3;
 	background-color: #d7373b;
+}
+
+.rectangle:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #d7373b;
 }
 
 .subtitle {
@@ -495,6 +540,67 @@ li {
 
 /* Оформление сетки флексами Inner */ 
 
+
+/* Оформление левой колонки */
+
+.left-column {
+	margin-left: 140px;
+}
+
+.filter-item {
+	border: none;
+}
+
+.range-filter {
+	width: 260px;
+  margin-top: 49px;
+}
+
+.range-controls {
+	position: relative;
+  height: 42px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-top: 38px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.scale {
+	height: 2px;
+  background: #d7dcde;
+}
+
+.bar {
+  width: 70%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.toggle {
+  width: 4px;
+  height: 4px;
+  padding: 0;
+  border: 8px solid #ffffff;
+  background-color: #ababab;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.grid-item {
+	margin-top: 65px;
+	border: none;
+}
+
+
+/* Оформление правой колонки */
+
+.right-column {
+	width: 760px;
+	margin-left: 140px; 
+}
+
 .sort-kat {
 	display: flex;
 	align-items: baseline;
@@ -554,15 +660,6 @@ li {
   /* Чтобы оттолкнуть элементы друг от друга */
   margin-right: 15px;
   margin-bottom: 15px;
-}
-
-.left-column {
-
-}
-
-.right-column {
-	width: 760px;
-	margin-left: 140px; 
 }
 
 .pagination {
