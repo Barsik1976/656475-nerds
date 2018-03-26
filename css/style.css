@@ -245,6 +245,10 @@ li {
 	background-image: url("/img/index/nerds-index-slide1.png");
 }
 
+.slider-item2 {
+	display: none;
+}
+
 .slider-item:nth-child(1) {
   background-image: url("/img/index/nerds-index-slide1.png");
   background-repeat: no-repeat;
@@ -620,10 +624,11 @@ li {
 .banners-item {
 	position: relative;
 	width: 360px;
-	margin-right: 140px; 
+	margin-right: 140px;
 }
 
 .banner-info {
+	position: absolute;
 	width: 360px;
 	text-align: center;
 	background-color: #eeeeee;
