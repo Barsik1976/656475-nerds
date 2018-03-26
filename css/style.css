@@ -669,6 +669,7 @@ li {
   text-transform: uppercase;
   color: #000000;
   text-align: center;
+  padding: 0px;
 }
 
 .pagination-item a {
@@ -678,7 +679,6 @@ li {
 
 .pagination li {
 	margin-right: 15px;
-	padding: 0px;
 }
 
 .pagination: a:hover {
