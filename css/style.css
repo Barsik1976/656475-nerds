@@ -177,7 +177,6 @@ h6 {
 
 li {
 	list-style: none;
-	padding: 0;
 }
 
 .page1 {
@@ -679,6 +678,7 @@ li {
 
 .pagination li {
 	margin-right: 15px;
+	padding: 0px;
 }
 
 .pagination: a:hover {
