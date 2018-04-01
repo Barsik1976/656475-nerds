@@ -20,8 +20,7 @@ a {
 
 .main-header-index {
 	width: 1440px;
-	min-height: 540px;
-  background-color: lightgrey;
+	background-color: lightgrey;
 }
 
 .main-header-inner {
@@ -210,6 +209,7 @@ li {
 
 .slider {
 	position: relative;
+	background-color: lightgrey;
 }
 
 .slider-controls i {
@@ -229,6 +229,15 @@ li {
 
 }
 
+/*.shop {
+	width: 1440px;
+	text-align: center;
+	font-weight: 550;
+	background-color: lightgrey;
+	margin: 0px;
+	padding-top: 86px;
+	padding-bottom: 117px; */ 
+
 .slider-list {
 	display: flex;
 	flex-direction: row;
@@ -236,32 +245,32 @@ li {
 	align-items: center;
 	list-style: none;
 	text-align: left;
+	background-color: lightgrey;
+	padding-top: 83px;
 }
 
 .slider-item {
 	display: block;
-	margin-bottom: 80px;
 	margin-left: 140px;
-	background-image: url("/img/index/nerds-index-slide1.png");
 }
 
-.slider-item:nth-child(1) {
-  background-image: url("/img/index/nerds-index-slide1.png");
+.slider-item {
+  background-image: url("../img/index/nerds-index-slide1.png");
   background-repeat: no-repeat;
   background-position: 93% 18px;
-  display: none;
-
+  width: 100%;
+  min-height: 412px;
 }
 
 .slider-item:nth-child(2) {
-  background-image: url("/img/index/nerds-index-slide2.png");
+  background-image: url("../img/index/nerds-index-slide2.png");
   background-repeat: no-repeat;
   background-position: 100% 0;
   display: none;
 }
 
 .slider-item:nth-child(3) {
-  background-image: url("/img/index/nerds-index-slide3.png");
+  background-image: url("../img/index/nerds-index-slide3.png");
   background-repeat: no-repeat;
   background-position: 100% 20;
   display: none;
@@ -402,7 +411,7 @@ li {
 .button-inner {
 	color: #000000;
 	text-align: center;
-   text-transform: uppercase;
+  text-transform: uppercase;
   background-color: #eeeeee;
 }
 
@@ -517,19 +526,37 @@ li {
 	opacity: 0.3;
 }
 
-.address {
+.block-address {
 	text-align: left;
   background-color: #ffffff;
   /*background-image: url("/img/karta.jpg");*/
 }
 
-.social {
+.address {
+	margin-left: 140px; 
+}
+
+.socials {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	margin-top: 65px;
-	margin-left: 140px; 
+	margin-left: 140px;
+	align-content: center; 
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 79px;
+  height: 78px;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 12px;
 }
 
 .slogan {
@@ -541,8 +568,62 @@ li {
 	margin-right: 355px; 
 }
 
-/* Оформление сетки флексами Inner */ 
 
+
+/* Карта и расположение адреса */
+
+.footer-map {
+  text-align: center;
+  height: 416px;
+  position: relative;
+}
+
+.footer-map-container {
+  height: 416px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-map .container {
+  position: relative;
+}
+
+.map-info {
+  background: #fff;
+  width: 219px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  position: absolute;
+  top: -369px;
+  left: 0;
+  text-align: left;
+
+}
+
+.map-info p {
+  margin: 0;
+  line-height: 18px;
+  margin-bottom: 17px;
+}
+
+p.map-info-header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+p.map-info-tel {
+  margin-bottom: 37px;
+}
+
+
+/* Оформление сетки флексами Inner */ 
 
 /* Оформление левой колонки */
 
@@ -550,7 +631,34 @@ li {
 	margin-left: 140px;
 }
 
+.filters {
+	margin: 0px;
+	padding: 0px;
+}
+
 .filter-item {
+	border: none;
+}
+
+.filter fieldset {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 23px; 
+  border: none;
+}
+
+.filter ul {
+  padding: 0;
+  margin: 0;
+}
+
+.filter-option {
+	margin-bottom: 19px;
+	padding-left: 45px;
+}
+
+.properties {
+	margin-bottom: 23px;
 	border: none;
 }
 
@@ -592,7 +700,9 @@ li {
 }
 
 .grid-item {
+	margin: 0px;
 	margin-top: 65px;
+	margin-bottom: 23px; 
 	border: none;
 }
 
@@ -634,6 +744,10 @@ li {
 	background-color: #eeeeee;
 	padding-bottom: 42px; 
 	margin-bottom: 34px;
+}
+
+.banner-info:nth-child {
+	position: absolute;
 }
 
 .products-list {
