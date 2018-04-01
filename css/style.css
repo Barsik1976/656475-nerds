@@ -678,6 +678,19 @@ p.map-info-tel {
   padding-left: 20px;
 }
 
+.range-controls .toggle {
+	top: 31px;
+  left: 0;
+}
+
+.range-controls .toggle-min {
+  left: 18px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+}
+
 .scale {
 	height: 2px;
   background: #d7dcde;
