@@ -753,6 +753,7 @@ p.map-info-tel {
 .banner-info {
 	position: absolute;
 	width: 360px;
+	z-index: 2;
 	text-align: center;
 	background-color: #eeeeee;
 	padding-bottom: 42px; 
