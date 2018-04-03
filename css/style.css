@@ -484,6 +484,17 @@ li {
 	justify-content: space-between;
 }
 
+.login-link::before {
+	content: "";
+	position: absolute;
+  top: 27px;
+  left: 24px;
+  background-image: url("img/cart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.3;
+ }
+
 .amenities {
 	display: flex;
 	flex-direction: row;
