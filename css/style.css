@@ -14,6 +14,11 @@ body {
 	list-style: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -79,6 +84,10 @@ a {
 
 a:focus {
 	outline: none;
+}
+
+.container-header {
+	margin: 0 auto;
 }
 
 h1 {
@@ -352,6 +361,7 @@ li {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: left;
+	margin-bottom: 21px;
 }
 
 .button-index {
@@ -415,6 +425,47 @@ li {
   background-color: #eeeeee;
 }
 
+.button-index-yellow {
+	background-color: #efc84a;
+}
+
+.button-index-red:hover {
+	background-color: #fb565a;
+}
+
+.button-index-red:focus {
+	color: #ffffff;
+	opacity: 0.3; 
+	background-color: #d7373b;
+}
+
+.button-index-green:hover {
+	background-color: #00bc6c;
+}
+
+.button-index-green:focus {
+	color: #ffffff;
+	opacity: 0.3; 
+	background-color: #00aa62;
+}
+
+.button-index-yellow:hover {
+	background-color: #efc84a;
+}
+
+.button-index-yellow:focus {
+	color: #ffffff;
+	opacity: 0.3; 
+	background-color: #e5a722;
+}
+
+.button-inner {
+	color: #000000;
+	text-align: center;
+  text-transform: uppercase;
+  background-color: #eeeeee;
+}
+
 .button-inner:hover {
 	background-color: #dfdfdf;
 }
@@ -425,7 +476,7 @@ li {
 	background-color: #d5d5d5;
 }
 
-.letter {
+.button-letter {
 	display: block;
 	font-size: 16px;
   text-transform: uppercase;
@@ -462,9 +513,10 @@ li {
 }
 
 .container {
+	width: 1100px;
 	display: flex;
 	justify-content: space-between;
-	margin-left: 140px;
+	margin: 0 auto;
 }
 
 .container-inner {
@@ -500,8 +552,6 @@ li {
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: 121px;
-	margin-left: 140px;
-	margin-right: 200px; 
 	align-items: flex-start;
 }
 
@@ -573,12 +623,15 @@ li {
 .slogan {
 	align-items: center;
 	font-size: 36px;
-	line-height: 36px;
 	text-align: left;
 	font-weight: bold;
 	margin-right: 355px; 
 }
 
+.slogan p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 
 
 /* Карта и расположение адреса */
@@ -642,6 +695,16 @@ p.map-info-tel {
 	margin-left: 140px;
 }
 
+fieldset {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
 .filters {
 	margin: 0px;
 	padding: 0px;
@@ -652,20 +715,19 @@ p.map-info-tel {
 }
 
 .filter fieldset {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   margin-bottom: 23px; 
   border: none;
 }
 
 .filter ul {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 .filter-option {
 	margin-bottom: 19px;
-	padding-left: 45px;
 }
 
 .properties {
@@ -690,6 +752,7 @@ p.map-info-tel {
 }
 
 .range-controls .toggle {
+	position: absolute;
 	top: 31px;
   left: 0;
 }
@@ -768,7 +831,7 @@ p.map-info-tel {
 	text-align: center;
 	background-color: #eeeeee;
 	padding-bottom: 42px; 
-	margin-bottom: 34px;
+	margin-bottom: 0px;
 	bottom: 0;
 }
 
